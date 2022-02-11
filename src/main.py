@@ -1,4 +1,6 @@
 import praw
+
+
 import getconfig
 
 reddit = praw.Reddit(
@@ -7,3 +9,5 @@ reddit = praw.Reddit(
     client_secret = getconfig.client_secret
 )
 
+print(reddit)
+input()
